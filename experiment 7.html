@@ -1,86 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation </title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
 
-    <title>EXPERIMENT 7 BY Mahi Agarwal</title>
-    <style>.box {
-            height: 200px;
-            width: 90%;
-            border: 2px solid black;
-            background-color: rgb(255, 255, 255);
-            
-            justify-content: center;
-        }
+  .box {
+    border: 1px solid black;
+    width: 95%;
+    margin: 20px;
+    padding: 5px;
+  }
 
-        .header {
-            display: block;
-            padding: 10px;
-            height: 60px;
-            width: 97.8%;
-            background-color: rgb(207, 205, 205);
-            color: black;
-            text-align: center;
-            
-        }
+  .header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+  }
 
-        .header span {
-            display: inline;
-            color: red;
-        }
+  .header span {
+    color: red;
+  }
 
-        .inline-block li {
-            display: inline-block;
-            margin-right: 10px;
-        }
+  .nav, .nav2 {
+    margin-top: 10px;
+  }
 
-        .inline-block a {
-            text-decoration: none;
-            padding: 5px;
-            background: rgb(108, 168, 233);
-            color: black;
-        }
+  .nav a, .nav2 a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid #666;
+  }
 
-        .lower-block a {
-            text-decoration: none;
-            padding: 5px;
-            background: rgb(20, 244, 69);
-            color: black;
-        }
+  .nav a {
+    background-color: lightblue;
+  }
 
-        .lower-block li {
-            display: inline-block;
-            margin-right: 10px;
-        }</style>
+  .nav2 a {
+    background-color: lightgreen;
+  }
+</style>
 </head>
-
 <body>
-    <div class="box">
-        <div class="header">
-            <p style="margin-top: 15px; padding:10px;">MY <span>Website</span> Navigation</p>
-        </div>
-
-        <nav class="inline-block" style="margin-bottom: 10px;">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Create</a></li>
-            </ul>
-        </nav>
-        <nav class="lower-block">
-            <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
-                <li><a href="#">Layout</a></li>
-            </ul>
-        </nav>
 
 
 
+<div class="box">
+  <div class="header">
+    My <span> Website</span> Navigation
+  </div>
 
-    </div>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
 
+  <div class="nav2">
+    <a href="#">Dashboard</a>
+    <a href="#">Profile</a>
+    <a href="#">Messages</a>
+    <a href="#">Logout</a>
+  </div>
+</div>
+<h3><center>Mahi Agarwal
+  <br>
+2025b01011389</center>
+</h3>
 </body>
 </html>
